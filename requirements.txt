@@ -1,0 +1,10 @@
+torch==1.7.*
+numpy==1.18.*
+gym==0.18.0
+# dm_control==0.0.355168290
+opencv-python==4.5.*
+tensorboardX==2.1
+moviepy==1.0.3
+ruamel.yaml==0.16.*
+gym-minigrid==1.0.2
+protobuf==3.20.*
