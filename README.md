@@ -1,17 +1,26 @@
-# Contrastive-AIF - Contrastive Active Inference
-
-This repository is the official implementation of Contrastive Active Inference (NeurIPS 2021).
-
+# Contrastive Active Inference
 [[website](https://contrastive-aif.github.io/)] [[paper](https://arxiv.org/abs/2110.10083)]
 
-This is the code for Choreographer: a model-based agent that discovers and learns unsupervised skills in latent imagination, and it's able to efficiently coordinate and adapt the skills to solve downstream tasks.
 
+This repository is the official implementation of Contrastive Active Inference (NeurIPS 2021).
 
 <p align="center">
     <img src='08_contrastive_planning.png' width=400>
 </p>
 
+
 If you find the code useful, please refer to our work using:
+
+```
+@inproceedings{Mazzaglia2021ContrastiveAIF,
+	title = {Contrastive Active Inference},
+	author = {Pietro Mazzaglia and Tim Verbelen and Bart Dhoedt},
+	booktitle = {Advances in Neural Information Processing Systems},
+	year = {2021},
+	url = {https://openreview.net/forum?id=5t5FPwzE6mq}
+}
+```
+
 ## Dependencies
 
 [RECOMMENDED] Create and activate a conda environment running:
