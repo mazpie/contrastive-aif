@@ -21,16 +21,21 @@ If you find the code useful, please refer to our work using:
 }
 ```
 
-## Dependencies
 
-[RECOMMENDED] Create and activate a conda environment running:
+## Installation
+
+### Recommended: Conda env
+
+Create and activate a conda environment running:
 
 ```bash
 conda create -n contrastive-aif python=3.8`
 conda activate contrastive-aif
 ```
 
-To install dependencies, please run:
+### Dependencies
+
+To install dependencies, run:
 
 `pip install -r requirements.txt`
 
@@ -66,4 +71,5 @@ python main.py --suite dmc --task reacher_easy_13 --config dmc_small dmc_benchma
 We would like to thank the authors of the following repositories for their useful open source code:
 
 [Dreamer](https://github.com/danijar/dreamer) [TensorFlow implementation of Dreamer]
+
 [dreamer-pytorch](https://github.com/juliusfrost/dreamer-pytorch) [PyTorch implementation of Dreamer]
